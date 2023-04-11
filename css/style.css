@@ -9,23 +9,26 @@ h1{
     text-align: center;
     margin-top: 2rem;
     font-family: 'Fredoka', sans-serif;
-    
 }
-
 
 .sottotitolo{
     padding-top: 3em;
-    
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
 }
-  
 
+p{
+    color: white;
+    font-weight: 400;
+}
 
 /* inizio main*/
 .full-container{
     width: 75%;
     margin: 0 auto;
-  
 }
+  
 
 
 h2{
@@ -33,45 +36,75 @@ h2{
     margin-left: 30px;
     font-family: 'Fredoka', sans-serif;
     display: inline;
-    
-    
+    font-size: 20px;
 }
     
-
-
 .row{
-    
-    
     margin-top: 30px;
     width: 100%;
-    
-    
-    
 }
+    
+
+.column{
+    float: left;
+    border: 12px solid white;
+    background-color: rgba(15,14,23,255);
+    width: calc(100% / 3);
+    margin-top: 5px;
+}
+    
+
 .row::after{
     content: '';
     display: table;
     clear: both;
 }
 
-.column{
-    float: left;
-    
-    
-    border: 12px solid white;
-    background-color: rgba(15,14,23,255);
-    width: calc(100% / 3);
-    
-
-}
-
 img{
-    width: 80px;
+width: 80px;
     float: left;
 }
-
+    
 .container{
     content: '';
     display: table;
     clear: both;
 }
+    
+.lavoro{
+    margin-left: 110px;
+    margin-top: 2px;
+    color: lightgray;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.email{
+    color: rgba(59,174,213,255);
+    margin-left: 110px;
+    margin-top: 2px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* fine main*/
+    
+
+
+   
+    
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+
+
+
